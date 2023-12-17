@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts</title>
+    <link rel="stylesheet" href="ЛР7-8.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header title">
+            <h1>Торти</h1>
+            <img src="data:image/png;base64,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" alt="Ampersand" class="header-img">
+            <h1>Тістечка</h1>
+        </div>
+        <div class="content">
+            <div class="menu">
+                <div class="menu-header">
+                    <p style="margin: 0;">Калорії у порції</p>
+                    <div class="slider">
+                        <div class="handle" style="top: -10px; left: 10%;"></div>
+                        <div class="line-bold" style="left: 9%;"></div>
+                        <div class="handle" style="top: -10px; left: 8%;"></div>
+                    </div>
+                    <p style="text-align: left; margin: 10px;">Від 0 до 600 кКал</p>
+                </div>
+                <label for="pie">
+                    <div class="button">
+                        Пиріг
+                    </div>
+                </label>
+                <label for="roll">
+                    <div class="button">
+                        Рулет
+                    </div>
+                </label>
+                <label for="cheesecakes">
+                    <div class="button">
+                        Сирники
+                    </div>
+                </label>
+                <label for="pastry">
+                    <div class="button">
+                        Тістечка
+                    </div>
+                </label>
+                <label for="cake">
+                    <div class="button">
+                        Торти
+                    </div>
+                </label>
+                <label for="reset">
+                    <div class="button">
+                        Скинути фільтр
+                    </div>
+                </label>
+            </div>
+            <input type="radio" id="pie" name="desserts">
+            <input type="radio" id="roll" name="desserts">
+            <input type="radio" id="cheesecakes" name="desserts">
+            <input type="radio" id="pastry" name="desserts">
+            <input type="radio" id="cake" name="desserts">
+            <input type="radio" id="reset" name="desserts" checked>
+            <div class="main">
+                <div class="item cake">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://images.unian.net/photos/2023_03/1678463186-4388.jpg?r=413474"
+                                target="_blank">
+                                <img src="https://images.unian.net/photos/2023_03/1678463186-4388.jpg?r=413474"
+                                    alt="Cake">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Торт: 
+                                <a href="https://www.unian.net/recipes/desserts/cakes/tort-s-pechenem-bez-vypechki-prostoy-recept-12174666.html"
+                                    target="_blank">
+                                    <b>Сметанні кекси</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 448 кКал</p>
+                    </div>
+                </div>
+                <div class="item pastry">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://klopotenko.com/wp-content/uploads/2020/09/Profitroli_siteWebUkr.jpg?v=1599651428"
+                                target="_blank">
+                                <img src="https://klopotenko.com/wp-content/uploads/2020/09/Profitroli_siteWebUkr.jpg?v=1599651428"
+                                    alt="Pastry">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Тістечко:
+                                <a href="https://klopotenko.com/profitroli-iz-zavarnym-kremom/"
+                                    target="_blank">
+                                    <b>Профітролі з кремом</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 333 кКал</p>
+                    </div>
+                </div>
+                <div class="item cheesecakes">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://klopotenko.com/wp-content/uploads/2021/12/pampyshki-s-vereniem-iz-roz_siteweb-1000x600.jpg?v=1657618314"
+                                target="_blank">
+                                <img src="https://klopotenko.com/wp-content/uploads/2021/12/pampyshki-s-vereniem-iz-roz_siteweb-1000x600.jpg?v=1657618314"
+                                    alt="Cheese-cakes">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Сирники:
+                                <a href="https://klopotenko.com/solodki-pampushky-u-frytyuri-z-troyandovym-varennyam/"
+                                    target="_blank">
+                                    <b>Пампушки</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 600 кКал</p>
+                    </div>
+                </div>
+                <div class="item cake">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://gordonua.com/img/article/15685/98_main-v1629484051.jpg"
+                                target="_blank">
+                                <img src="https://gordonua.com/img/article/15685/98_main-v1629484051.jpg"
+                                    alt="Сake">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Торт:
+                                <a href="https://gordonua.com/ukr/bulvar/news/10-smachnih-tortiv-z-pechiva-jaki-ne-potribno-pekti-1568598.html"
+                                    target="_blank">
+                                    <b>З печива</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 523 кКал</p>
+                    </div>
+                </div>
+                <div class="item roll">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://klopotenko.com/wp-content/uploads/2020/12/Shtolen-z-marcypanom_siteWebUkr.jpg?v=1608227052"
+                                target="_blank">
+                                <img src="https://klopotenko.com/wp-content/uploads/2020/12/Shtolen-z-marcypanom_siteWebUkr.jpg?v=1608227052"
+                                    alt="Roll">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Рулет:
+                                <a href="https://klopotenko.com/rizdvyanyj-shtolen-z-martsipanom/" target="_blank">
+                                    <b>Штолен з марципанами</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 397 кКал</p>
+                    </div>
+                </div>
+                <div class="item pie">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://klopotenko.com/wp-content/uploads/2018/03/Sharlotka_siteWeb-Ukr.jpg?v=1584040820"
+                                target="_blank">
+                                <img src="https://klopotenko.com/wp-content/uploads/2018/03/Sharlotka_siteWeb-Ukr.jpg?v=1584040820"
+                                    alt="apple-pie">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Пиріг:
+                                <a href="https://klopotenko.com/sharlotka/"
+                                    target="_blank">
+                                    <b>Класична шарлотка</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 295 кКал</p>
+                    </div>
+                </div>
+                <div class="item cake">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://klopotenko.com/wp-content/uploads/2023/05/musovyy-tort-try-shokolady-img-1000x600.jpg?v=1684932211"
+                                target="_blank">
+                                <img src="https://klopotenko.com/wp-content/uploads/2023/05/musovyy-tort-try-shokolady-img-1000x600.jpg?v=1684932211"
+                                    alt="Сake">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Торт:
+                                <a href="https://klopotenko.com/musovyj-tort-try-shokolady-vid-shef-kondyterky-ally-zaporozhan/" target="_blank">
+                                    <b> Три шоколади</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 600 кКал</p>
+                    </div>
+                </div>
+                <div class="item pastry">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://klopotenko.com/wp-content/uploads/2021/04/ekleru_sitewebukr-1000x600.jpg?v=1618484112"
+                                target="_blank">
+                                <img src="https://klopotenko.com/wp-content/uploads/2021/04/ekleru_sitewebukr-1000x600.jpg?v=1618484112"
+                                    alt="Pastry">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Тістечко:
+                                <a href="https://klopotenko.com/eklery-klasychnyi-retsept/"
+                                    target="_blank">
+                                    <b>Еклери</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 430 кКал</p>
+                    </div>
+                </div>
+                <div class="item pastry">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://klopotenko.com/wp-content/uploads/2023/10/tistechko-kartoplya-img-1000x600.jpg?v=1696335818"
+                                target="_blank">
+                                <img src="https://klopotenko.com/wp-content/uploads/2023/10/tistechko-kartoplya-img-1000x600.jpg?v=1696335818"
+                                    alt="Potato">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Тістечко:
+                                <a href="https://klopotenko.com/tistechko-kartoplya-klasychnyj-reczept-vid-yevgena-klopotenka/"
+                                    target="_blank">
+                                    <b> Картопля</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 342 кКал</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Контакти: <span>Klopotenko@.ua</span></p>
+            <p>Klopotenkoua</p>
+        </div>
+    </div>
+</body>
+
+</html>
